@@ -31,6 +31,15 @@ class JupyterWidgets(Widgets):
 
         self.__display_widget(widget)
 
+    def remove(self, name: str):
+        widget = self.__widgets[name]
+        widget.close()
+        del self.__widgets[name]
+
+    def remove_all(self):
+        for name in list(self.__widgets.keys()):
+            self.remove(name)
+
     def get_value(self, name: str):
         selected_widgets = [widget for _name, widget in self.__widgets.items() if _name == name]
 
