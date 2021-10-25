@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "jupyter-bundle"
-version = "1.1.1"
+version = "1.2.0b1"
 description = "Jupyter Lab support for Daipe"
 readme = "README.md"
 repository = "https://github.com/daipe-ai/jupyter-bundle"
