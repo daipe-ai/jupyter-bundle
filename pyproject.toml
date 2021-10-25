@@ -30,6 +30,7 @@ daipe-core = "^1.1"
 ipywidgets = ">=7.6"
 jupytext = ">=1.11.0"
 jupyterlab = ">=3.0.0"
+pyspark-bundle = "^1.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
@@ -38,6 +39,8 @@ black = "^20.8b1"
 flake8-fixme = "^1.1.1"
 pep8-naming = "^0.11.1"
 poethepoet = "^0.10.0"
+pandas = "1.2.4"
+pyspark = "^3"
 
 [tool.poetry.plugins."pyfony.bundle"]
 create = "jupyterbundle.JupyterBundle:JupyterBundle"

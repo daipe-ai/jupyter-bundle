@@ -1,4 +1,8 @@
 services:
   jupyterbundle.widgets.JupyterWidgets:
-      tags:
-        - "widgets.factory"
+    tags:
+      - "widgets.factory"
+
+  jupyterbundle.dataframe.DisplayMethod:
+    tags:
+      - {name: 'pysparkbundle.dataframe.show_method', alias: jupyter_display}

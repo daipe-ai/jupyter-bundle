@@ -3,7 +3,7 @@ from pyfonycore.bootstrap import bootstrapped_container
 from injecta.testing.services_tester import test_services
 
 
-class DaipeCoreTest(unittest.TestCase):
+class JupyterBundleTest(unittest.TestCase):
     def test_init(self):
         container = bootstrapped_container.init("test")
 
