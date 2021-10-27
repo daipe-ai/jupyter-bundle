@@ -26,7 +26,7 @@ packages = [
 [tool.poetry.dependencies]
 python = ">=3.7.1,<4.0.0"
 pyfony-core = "^0.8.0"
-daipe-core = "^1.1"
+daipe-core = "^1.2"
 ipywidgets = ">=7.6"
 jupytext = ">=1.11.0"
 jupyterlab = ">=3.0.0"
