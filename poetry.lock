@@ -1099,19 +1099,6 @@ pandas_on_spark = ["numpy (>=1.14)", "pandas (>=0.23.2)", "pyarrow (>=1.0.0)"]
 sql = ["pandas (>=0.23.2)", "pyarrow (>=1.0.0)"]
 
 [[package]]
-name = "pyspark-bundle"
-version = "1.1.0"
-description = "PySpark bundle for the Daipe Framework"
-category = "main"
-optional = false
-python-versions = ">=3.7,<4.0"
-
-[package.dependencies]
-daipe-core = ">=1.0,<2.0"
-injecta = ">=0.10.0,<0.11.0"
-pyfony-bundles = ">=0.4.0,<0.5.0"
-
-[[package]]
 name = "pytest"
 version = "5.4.3"
 description = "pytest: simple powerful testing with Python"
@@ -1953,9 +1940,6 @@ pyrsistent = [
 ]
 pyspark = [
     {file = "pyspark-3.2.0.tar.gz", hash = "sha256:bfea06179edbfb4bc76a0f470bd3c38e12f00e1023e3ad0373558d07cff102ab"},
-]
-pyspark-bundle = [
-    {file = "pyspark_bundle-1.1.0-py3-none-any.whl", hash = "sha256:5c42897b935337abf12746380ba0f239a4682080f7a3e56e2b9b26ff65dd9c6d"},
 ]
 pytest = [
     {file = "pytest-5.4.3-py3-none-any.whl", hash = "sha256:5c0db86b698e8f170ba4582a492248919255fcd4c79b1ee64ace34301fb589a1"},
