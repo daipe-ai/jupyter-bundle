@@ -3,6 +3,6 @@ services:
     tags:
       - "widgets.factory"
 
-  jupyterbundle.dataframe.DisplayMethod:
+  jupyterbundle.notebook.DataFrameDisplay:
     tags:
       - {name: 'pysparkbundle.dataframe.show_method', alias: jupyter_display}
