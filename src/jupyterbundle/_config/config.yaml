@@ -6,3 +6,7 @@ services:
   jupyterbundle.notebook.DataFrameDisplay:
     tags:
       - {name: 'pysparkbundle.dataframe.show_method', alias: jupyter_display}
+
+  jupyterbundle.notebook.PandasDataFrameDisplay:
+    tags:
+      - {name: 'daipecore.pandas.dataframe.show_method', alias: jupyter_display}
